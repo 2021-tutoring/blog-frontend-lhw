@@ -1,0 +1,54 @@
+.header #cancelIcon {
+  float: left;
+  color: white;
+  margin: 5%;
+}
+.header #finishIcon {
+  float: right;
+  margin-top: 5.2%;
+  margin-right: 8%;
+  color: white;
+}
+
+#titleDiv {
+  width: 100%;
+  height: 10%;
+  border-bottom: 1px solid #cfcfcf;
+  overflow: hidden;
+}
+#titleDiv #titleInput {
+  width: 94%;
+  height: 55%;
+  border: none;
+  margin: 1.5%;
+  padding: 1.5%;
+  font-size: 1.2rem;
+}
+#attachmentDiv {
+  width: 96%;
+  height: 8%;
+  border-bottom: 1px solid #cfcfcf;
+  padding: 2%;
+  overflow: hidden;
+}
+#attachmentDiv .attachmentIcon {
+  color: #cfcfcf;
+  margin-left: 5%;
+  margin-right: 8%;
+}
+#textDiv {
+  width: 100%;
+  height: 75%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+#textDiv #textInput {
+  text-align: left;
+  width: 90%;
+  height: 100%;
+  border: none;
+  margin: 1.5%;
+  padding: 3%;
+  font-size: 1.4em;
+  font-weight: 500;
+}
